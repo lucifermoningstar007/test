@@ -19,7 +19,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Performs the task
         run: |
           pip3 install yadisk
           git clone https://${{secrets.GHT}}@github.com/lucifermoningstar007/code
